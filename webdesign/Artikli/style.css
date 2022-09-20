@@ -1,0 +1,36 @@
+.container{
+    min-height: 50vh;
+    min-width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.noneDisplay{
+    display:none;
+}
+
+button{
+    display:block;
+    width:100%;
+}
+
+.content{
+    border: 1px solid black;
+    flex-grow: -1;
+}
+
+.Red{
+    background-color: red;
+}
+
+.Blue{
+    background-color: blue;
+}
+
+.Orange{
+    background-color:orange;
+}
+
+.Green{
+    background-color: green;
+}
